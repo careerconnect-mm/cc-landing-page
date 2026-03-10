@@ -1,0 +1,18 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thurriza.astrology",
+      "sha256_cert_fingerprints": ["74:56:0C:1C:77:1E:49:FC:83:C2:61:47:B9:E5:7B:3C:32:86:D5:F3:E2:B8:3F:1D:33:5F:B7:B6:B6:8F:25:AB", "3A:BB:21:11:F1:A2:60:09:B1:8E:B8:29:64:E9:BD:CB:78:14:22:3B:9C:76:3A:09:28:A0:52:A6:7F:C1:92:13"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.thurriza.astrology.dev",
+      "sha256_cert_fingerprints": ["3A:BB:21:11:F1:A2:60:09:B1:8E:B8:29:64:E9:BD:CB:78:14:22:3B:9C:76:3A:09:28:A0:52:A6:7F:C1:92:13"]
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "R7WPR9S4Z3.com.thurriza.astrology",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "R7WPR9S4Z3.com.thurriza.astrology.develop",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
