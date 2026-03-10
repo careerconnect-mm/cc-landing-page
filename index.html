@@ -1,1 +1,121 @@
-Carreer Connect Landing Page!
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Career Connect</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        color-scheme: light;
+        --green: #0e6b3b;
+        --green-dark: #0a5530;
+        --surface: #ffffff;
+        --bg: #f4f6f8;
+        --text: #1a1f1b;
+        --muted: #5d6b61;
+        --border: #e2e7e3;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        display: grid;
+        place-items: center;
+        padding: 48px 20px;
+      }
+
+      main {
+        width: min(980px, 100%);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        padding: clamp(32px, 5vw, 56px);
+        box-shadow: 0 20px 40px rgba(20, 40, 30, 0.08);
+        display: grid;
+        gap: 28px;
+      }
+
+      .brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+      }
+
+      .brand-logo {
+        height: 100px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.6;
+        max-width: 48ch;
+      }
+
+      .cta {
+        justify-self: start;
+        padding: 12px 26px;
+        border-radius: 999px;
+        border: none;
+        background: var(--green);
+        color: #ffffff;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 180ms ease, transform 180ms ease;
+      }
+
+      .cta:hover {
+        background: var(--green-dark);
+        transform: translateY(-1px);
+      }
+
+      .meta {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .meta span {
+        padding: 6px 12px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: #f9fbf9;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand" style="display: flex; align-items: center; gap: 12px;">
+        <img src="./favicon.svg" alt="Career Connect" class="brand-logo" />
+      </div>
+      <h1>Simple hiring. Clear outcomes.</h1>
+      <p>
+        A minimal landing page that mirrors the admin theme: calm greens, soft
+        surfaces, and straightforward messaging.
+      </p>
+      <button class="cta" type="button">Get Started</button>
+      <div class="meta">
+        <span>Trusted matches</span>
+        <span>Clean profiles</span>
+        <span>Fast onboarding</span>
+      </div>
+    </main>
+  </body>
+</html>

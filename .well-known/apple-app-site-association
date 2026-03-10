@@ -3,13 +3,13 @@
     "apps": [],
     "details": [
       {
-        "appID": "R7WPR9S4Z3.com.thurriza.astrology",
+        "appID": "R7WPR9S4Z3.com.mm.careerconnect",
         "paths": [
           "*"
         ]
       },
       {
-        "appID": "R7WPR9S4Z3.com.thurriza.astrology.develop",
+        "appID": "R7WPR9S4Z3.com.mm.careerconnect.dev",
         "paths": [
           "*"
         ]
